@@ -8,3 +8,34 @@ body{
     background-color: black;
     color: white;
 }
+
+
+header
+.nav_menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 255, 255, 0.582);
+    align-items: center;
+}
+
+header
+.nav_menu
+#nav_rigth_links ul{
+    display: flex;
+    list-style: none;
+    background-color: cadetblue;
+}
+header
+.nav_menu
+#nav_rigth_links ul li{
+    margin-left: 20px;
+}
+
+.container_tudo{
+    display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
