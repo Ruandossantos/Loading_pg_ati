@@ -8,26 +8,3 @@ body{
     background-color: black;
     color: white;
 }
-
-header
-nav{
-    display: flex;
-    background-color: aqua;
-    justify-content: space-around;
-}
-header
-nav
-div
-ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-header
-nav
-ul{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-}
