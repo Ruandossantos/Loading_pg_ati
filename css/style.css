@@ -12,7 +12,7 @@ body{
     color: white;
     height: 100vh;
     font-family: var(--font_pdo);
-    background-image:linear-gradient(45deg,#1f705ee8, #309680e5), url(../img/cam.jpg);
+    background-image:linear-gradient(45deg,#00934c, #309680e5), url(../img/cam.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -111,6 +111,7 @@ h1{
     animation-direction: normal;
     animation-timing-function: ease-in-out;
     animation-duration: 1;  
+    color: #e0e022;
 }
 
 .container_tudo
@@ -234,14 +235,14 @@ span{
     margin: 0 auto;
     font-size: .8rem;
     font-weight: 700;
-    background-color:#0c8568;
-    color: white;
+    background-color:#e0e022;
+    color: #00934c;
     border: none;
     outline: none;
     border-radius: 8px;
     height: 35px;
     transition: .5s;
-    border:1px solid white;
+    border:1px solid #00934c;
 }
 
 .container_tudo
@@ -249,7 +250,7 @@ span{
 .container_iframe_btn
 #btn button:hover{
     transform: scale(1.1);
-    background-color: #338d78;
+    background-color: #b3b308;
     border:1px solid white;
  
 }
