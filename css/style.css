@@ -60,7 +60,8 @@ header
 }
 header
 .nav_menu
-#nav_rigth_links ul li:hover{               background-color: #0c8568;
+#nav_rigth_links ul li:hover{               
+    background-color: #0c8568;
     transform: scale(1.1);
 }
 header
