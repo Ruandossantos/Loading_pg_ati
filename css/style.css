@@ -47,10 +47,28 @@ header
 .nav_menu
 #nav_rigth_links ul li{
     margin-left: 30px;
+    padding-top: 6px;
     font-size: .7rem;
     font-weight: 500;
     text-transform: uppercase;
     text-shadow: 1px 1px 3px #000000c4;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+header
+.nav_menu
+#nav_rigth_links ul li:hover{               background-color: #0c8568;
+    transform: scale(1.1);
+}
+header
+.nav_menu
+#nav_rigth_links ul li a{
+    color: white;
+    text-decoration: none;
+    
 }
 #title_assunto{
     text-align: center;
@@ -142,7 +160,7 @@ span{
 .section_rigth_iframe_buttom{
     height: 90%;
     width: 60%;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
@@ -245,7 +263,7 @@ footer{
 }
 
 footer p{
-    padding-top: 27px;
+    padding-top: 18px;
     margin-right: 20px;
     font-size: .6rem;
 }
