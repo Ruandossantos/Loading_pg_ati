@@ -17,7 +17,6 @@ body{
     background-repeat: no-repeat;
 }
 
-
 header
 .nav_menu{
     display: flex;
@@ -26,11 +25,13 @@ header
     padding: 10px;
     max-width: 1300px;
 }
+
 .nav_menu
 #nav_img
 img{
     margin-left: 70px;
     margin-top: 10px;
+    animation: img_salte 4s infinite alternate ease-in-out;
 }
 
 header
@@ -41,6 +42,7 @@ header
     margin-right: 40px;
     text-shadow: 1px 1px 3px #000000c4;
 }
+
 header
 .nav_menu
 #nav_rigth_links ul li{
@@ -90,9 +92,9 @@ h1{
     animation-duration: 2s;
     animation-direction: normal;
     animation-timing-function: ease-in-out;
-    animation-duration: 1;
-    
+    animation-duration: 1;  
 }
+
 .container_tudo
 .section_left_conteudo
 #conteudo_internos
@@ -119,6 +121,7 @@ span{
     color: black;
     text-shadow: 1px 1px 10px #ffffff86;
 }
+
 .container_tudo
 .section_left_conteudo
 #span_text
@@ -142,7 +145,6 @@ span{
     padding: 20px;
     display: flex;
     justify-content: center;
-
 }
 
 
@@ -196,6 +198,7 @@ span{
     animation-timing-function: ease-in-out;
     animation-duration: 1;
 }
+
 .container_tudo
 .section_rigth_iframe_buttom
 .container_iframe_btn
@@ -221,6 +224,7 @@ span{
     transition: .5s;
     border:1px solid white;
 }
+
 .container_tudo
 .section_rigth_iframe_buttom
 .container_iframe_btn
@@ -239,6 +243,7 @@ footer{
 
 
 }
+
 footer p{
     padding-top: 27px;
     margin-right: 20px;
@@ -265,4 +270,13 @@ footer p{
         translate: 0px;
     }
     
+}
+
+@keyframes img_salte {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
 }
